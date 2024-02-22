@@ -1,1 +1,7 @@
-https://wiki.onfido.net/display/HIRE/%28WIP%29+Frontend+%28Pairing%29+-+React+list+view
+# react-main-list
+
+## Design system
+
+react-main-list users the onfido Castor design system.
+
+- [Castor documentation](https://castor.vercel.app/?path=/docs/intro--page)
