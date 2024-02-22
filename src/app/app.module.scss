@@ -1,0 +1,21 @@
+@use '@onfido/castor';
+
+.main {
+  height: 100%;
+  overflow: hidden auto;
+  padding: castor.space(2);
+}
+
+.list {
+  display: grid;
+  gap: castor.space(2);
+  grid: auto-flow / 1fr;
+
+  @media (min-width: 620px) {
+    grid: auto-flow / repeat(2, 1fr);
+  }
+
+  @media (min-width: 940px) {
+    grid: auto-flow / repeat(3, 1fr);
+  }
+}

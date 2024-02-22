@@ -1,0 +1,6 @@
+@use '@onfido/castor';
+
+.details {
+  display: grid;
+  gap: castor.space(2);
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "dev dependencies",
+      "automerge": true,
+      "gitLabAutomerge": true
+    },
+    {
+      "matchPackagePatterns": ["^@onfido/castor"],
+      "groupName": "castor",
+      "automerge": true,
+      "gitLabAutomerge": true
+    }
+  ]
+}

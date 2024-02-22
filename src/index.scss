@@ -1,0 +1,30 @@
+@use '@onfido/castor';
+
+:root {
+  @include castor.day();
+}
+
+@include castor.Button();
+@include castor.Icon();
+
+body {
+  background-color: castor.color('background-main');
+  box-sizing: border-box;
+  color: castor.color('content-main');
+  font-family: sans-serif;
+  font-family: 'Helvetica Neue', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+/* stylelint-disable-next-line selector-max-id */
+#root {
+  display: contents;
+}

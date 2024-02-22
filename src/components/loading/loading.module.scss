@@ -1,0 +1,10 @@
+@use '@onfido/castor';
+
+.loading {
+  @include castor.font('500-bold');
+
+  display: grid;
+  height: 100%;
+  place-content: center;
+  width: 100%;
+}

@@ -1,0 +1,10 @@
+@use '@onfido/castor';
+
+.card {
+  background-color: castor.color('background-surface');
+  border: castor.space(0.125) solid castor.color('border-separator');
+  border-radius: castor.border-radius('medium');
+  display: grid;
+  gap: castor.space(2);
+  padding: castor.space(4);
+}

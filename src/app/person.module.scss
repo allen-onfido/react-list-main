@@ -1,0 +1,33 @@
+@use '@onfido/castor';
+
+.card {
+  cursor: pointer;
+  transition: ease castor.time(1);
+  transition-property: background-color, border-color;
+  user-select: none;
+
+  &:hover {
+    background-color: castor.color('background-action-subtle-hover');
+    border-color: castor.color('border-action-subtle');
+  }
+
+  &:active {
+    background-color: castor.color('background-action-subtle');
+    border-color: castor.color('border-action');
+  }
+}
+
+.name {
+  @include castor.font('500-bold');
+  margin: 0;
+}
+
+.paragraph {
+  margin: 0;
+}
+
+.title {
+  @include castor.font('300-bold');
+  display: inline-block;
+  margin: 0;
+}

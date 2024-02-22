@@ -1,0 +1,9 @@
+@use '@onfido/castor';
+
+.code {
+  background-color: castor.color('background-surface-alt');
+  border-radius: castor.border-radius('medium');
+  display: inline-block;
+  padding: castor.space(1);
+  white-space: pre;
+}
